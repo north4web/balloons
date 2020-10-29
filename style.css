@@ -1,20 +1,37 @@
+body {
+
+/*	border: 2px solid white;
+*/	border-radius: 10px;
+	background-color: rgba(80, 130, 180, 0.8);
+}
+
 button {
-background-color: steelblue;
-color:whitesmoke;
-font-weight: 700;
-font-size: 18px;
-width: 220px;
-height: 40px;
-border: none;
-border-radius: 10px;
+	margin-top: 5px;
+	background-color: rgb(80, 130, 180);
+	color:whitesmoke;
+	font-weight: 700;
+	font-size: 18px;
+	width: 220px;
+	height: 40px;
+	border: none;
+	border-radius: 10px 10px 0 0;
 }
 
 button:hover {
     background-color: skyblue;
+    transition: 0.3s;
     border: none;
 }
 
 
 button:focus {
     outline: none;
+}
+
+
+
+
+#box {
+	background-color: skyblue;
+	border-radius: 0 0 10px 10px;
 }
