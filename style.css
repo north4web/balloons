@@ -1,0 +1,21 @@
+button {
+background-color: steelblue;
+color:whitesmoke;
+font-weight: 700;
+font-size: 18px;
+width: 220px;
+height: 40px;
+border: none;
+border-radius: 10px;
+}
+
+button:hover {
+    background-color: skyblue;
+    border: none;
+}
+
+
+button:focus {
+    outline: none;
+}
+
