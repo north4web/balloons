@@ -13,12 +13,23 @@
 </head>
 <body>
 <section>
+<form>
+		<input type="radio" id="block" name="style" value="block" checked="checked">
+		<label for="block">block</label>
+		<input type="radio" id="flex" name="style" value="flex">
+		<label for="flex">flex</label>
+
+</form>
+<div id="buttons">
+
 	<button onclick="getImage(event)">Click to get a balloon</button>
 
 	<button onclick="removeImage(event)">Click to remove one</button>
 
 	<button onclick="removeAll(event)">Click to remove all</button>
+
 </section>
+</div>
 
 <div id="box">    
 </div>
